@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>boot-security-jpa-gradle-1 project</title>
+<!-- Bootstrap core css -->
+<link th:href="@{/css/lib/bootstrap.min.css}" rel="stylesheet">
+<link th:href="@{/css/lib/navbar-top-fixed.css}" rel="stylesheet">
+<link rel="canonical" th:href="@{https://getbootstrap.com/docs/5.1/examples/navbar-fixed/}">
+<link th:href="@{/css/common.css}" rel="stylesheet">
+</head>
+<body>
+<div data-include-path="/html/nav.html"></div>
+
+<main class="container">
+  <div class="bg-light p-5 rounded">
+    <h1>공지사항</h1>
+    <p class="lead">
+    	얘들아 위에 이름 누르면 각자 첫화면까지 이동하도록 해놨어.<br>
+    	데이터베이스 이름은 demo로, 비밀번호는 password로 설정했어.<br>
+    	각자 첫화면에 설정해놓은 걸 모든 페이지에 꼭 똑같이 지켜줘 그래야 메뉴바가 잘 붙는단다.
+    </p>
+  </div>
+</main>
+<script th:src="@{/js/lib/bootstrap.min.js}"></script>
+<script th:src="@{/js/lib/bootstrap.bundle.min.js}"></script>
+<script th:src="@{/js/includeHTML.js}"></script>
+</body>
+</html>
