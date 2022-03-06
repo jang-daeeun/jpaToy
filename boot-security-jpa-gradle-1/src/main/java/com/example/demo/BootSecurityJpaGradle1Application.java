@@ -9,6 +9,7 @@ public class BootSecurityJpaGradle1Application {
 
 	public static void main(String[] args) {
 		SpringApplication.run(BootSecurityJpaGradle1Application.class, args);
+		//as
 	}
 
 }
